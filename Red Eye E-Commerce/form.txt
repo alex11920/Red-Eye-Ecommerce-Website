@@ -1,0 +1,112 @@
+.ac-p .ac-de h2{
+	color: #ffffff;
+	position: relative;
+	top: -0%;
+	right: -40%;
+}
+
+.ac-p .ac-de .checkout-form .form-inline .form-group{
+	color: #ffffff;
+}
+
+.ac-p .ac-de input[type="submit"]{
+	margin-left: 50%;
+	
+}
+
+.ac-p .ac-de input[type="submit"]:hover{
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ac-de">
+		<h2>Account</h2>
+		<div class="billing-detail">
+		<form class="checkout-form">
+			<div class="form-inline">
+				<div class="form-group">
+					<label>First Name</label>
+					<input type="text" name="fname">
+				</div>
+
+				<div class="form-group">
+					<label>Last Name</label>
+					<input type="text" name="lname">
+				</div>
+			</div>
+
+			<div class="form-group">
+					<label>Company Name</label>
+					<input type="text" name="cname">
+				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<label>Country</label>
+						<select id="country" name="country">
+   <option value="Bangladesh">Bangladesh</option>
+   <option value="India">India</option>
+   <option value="Sri-lanka">Sri-lanka</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label>Address</label>
+						<textarea name="address" rows="5"></textarea>
+					</div>
+					<div class="form-inline">
+						<div class="form-group">
+							<label>Email</label>
+							<input type="email" name="email" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="Password" name="Password" autocomplete="off">
+						</div>
+					</div>
+				<div class="form-inline"></div>	
+				<div class="form-group">
+							<label>Tel</label>
+							<input type="text" id="tel" name="tel" minlength="11"
+							maxlength="11">
+				</div>
+				<div class="form-group">
+							<label>Mobile</label>
+							<input type="text" id="mobile" name="mobile" minlength="11"
+							maxlength="11">
+				</div>	
+				</div>
+				<br> 
+				<div class="form-group">
+							<label></label>
+							<input type="submit" id="update" name="update" value="Update">
+				</div>	
+				<li></li>
+		</form>	
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
