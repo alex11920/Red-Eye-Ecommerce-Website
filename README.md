@@ -1,4 +1,4 @@
-# Red-Eye-
+# RedEye
 It's an E-Commerce Website, Just worked on front-end area.
 Please Don't Try To Copyright.
 
